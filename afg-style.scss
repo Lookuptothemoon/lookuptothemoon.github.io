@@ -2,6 +2,14 @@
     font-family: Summer Hearts;
     src: url(fonts/SummerHearts-Regular.otf);
 }
+@font-face {
+    font-family: Gotham Narrow Bold;
+    src: url(fonts/GothamNarrowBold.otf);
+}
+@font-face {
+    font-family: Gotham Narrow;
+    src: url(fonts/GothamNarrowBook.otf);
+}
 
 body {
     text-align: center;
@@ -110,7 +118,7 @@ body {
                 .quote-content {
                     padding: 25px 20% 25px 20%;
                     
-                    .quote {
+                    .mil-quote {
                         position: relative;
                         text-align: left;
                         margin-left: 27%;
@@ -128,17 +136,7 @@ body {
                             margin-left: 30px;
                             color: lightgray;
                         }
-                    }
-                
-                    .quote:before {
-                        position: absolute;
-                        top: 0;
-                        content: " ";
-                        height: 300px;
-                        border: solid 2px lightgray;
-                        border-radius: 3px;
-                    }
-                    
+                    }                    
                 }
 
                 .video-container {
@@ -154,16 +152,69 @@ body {
             }
             
             .article {
-                //background-image
                 background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url(img/afg-img/articlebackground.png);
                 background-repeat: no-repeat;
                 background-size: cover;
-                background-position: 30% 0;   
-                //end of background-image
+                background-position: 30% 0;
+                padding: 20px 0 20px 0;
+                margin: 0;
 
-                img {
-                    width: 100%;
+                .text {
+                    font-family: Gotham Narrow;
+
+                    #title-text {
+                        font-family: Gotham Narrow Bold;
+                    }
+                    #top-text {
+                        font-family: Gotham Narrow Bold;
+                        margin-left: 5%;
+                    }
+
+                    p {
+                        text-align: left;
+                        font-size: 18px;
+                    }
                 }
+
+                #text-box1 {
+                    margin: 0 50% 0 5%;
+                }
+
+                #text-box2 {
+                    position: relative;
+                    margin: 0 5% 0 45%;
+                    padding-right: 2%;
+                    padding-bottom: 200px;
+                }
+
+                #text-box3 {
+                    position: relative;
+                    border: 2px 2px 2px 0;
+                    margin: 0 55% 0 0;
+                    border-top: 4px solid black;
+                    border-right: 4px solid black;
+                    border-bottom: 4px solid black;
+
+                    p {
+                        padding-left: 5%;
+                    }
+                }
+
+                #text-box4 {
+                    position: relative;
+                    padding-top: 150px;
+                    margin: 15px 10% 15px 5%;
+                }
+
+                #text-box5 {
+                    position: relative;
+                    margin: 0 50% 0 5%;
+                }
+
+                #text-box6 {
+                    margin: 0 5% 0 50%;
+                }
+
             }
 
             .infographic-content {
