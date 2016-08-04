@@ -74,8 +74,8 @@ body {
             position: relative;
             text-align: left;
             margin-left: 27%;
-            padding-top: 100px;
-            padding-bottom: 100px;
+            padding-top: 120px;
+            padding-bottom: 120px;
             font-size: 17px; }
             body .all-content .content .rockefeller-content .quote-content .mil-quote p {
               margin-left: 30px;
@@ -89,7 +89,8 @@ body {
           body .all-content .content .rockefeller-content .video-container #vid1 {
             border-style: solid;
             border-color: white;
-            width: 75%; }
+            width: 75%;
+            height: 75%; }
       body .all-content .content .article {
         background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(img/afg-img/articlebackground.png);
         background-repeat: no-repeat;
